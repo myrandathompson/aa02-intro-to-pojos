@@ -4,7 +4,14 @@ strings. It should return true if all of the strings in the array are keys in
 the object.
 */
 
-// Your code here 
+function hasKeys(obj, arrayOfStrings) {
+  for (let key of arrayOfStrings) {
+    if (!obj.hasOwnProperty(key)) {
+      return false;
+    }
+  }
+  return true
+}
 
 // let survey = {
 //   name: 'Check',

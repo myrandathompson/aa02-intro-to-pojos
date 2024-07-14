@@ -7,8 +7,11 @@ bracket notation.
 const obj = {};
 
 /******************** DO NOT MODIFY ANY CODE ABOVE THIS LINE *****************/
+obj.firstKey = "firstValue",
+obj.numeric = 2,
+obj['boolean'] = false;
+obj.object = {hello: 'world!'}
 
-// Your code here 
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 
